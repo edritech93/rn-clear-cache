@@ -17,6 +17,10 @@ const RnClearCache = NativeModules.RnClearCache
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RnClearCache.multiply(a, b);
+export function getAppCacheSize(): Promise<number> {
+  return RnClearCache.getAppCacheSize();
+}
+
+export function clearAppCache(): Promise<boolean> {
+  return RnClearCache.clearAppCache();
 }
