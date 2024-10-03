@@ -1,6 +1,6 @@
 {
-  "name": "rn-clear-cache",
-  "version": "1.0.0",
+  "name": "@edritech93/rn-clear-cache",
+  "version": "1.0.1",
   "description": "clear cache for android and iOS with react-native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
